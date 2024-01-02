@@ -40,7 +40,7 @@ if soccer_team_won == "Yes, I have succeeded at a hobby, sport, or pursuit that 
 if soccer_team_won == "Yes, I have had significant professional or academic success":
     st.sidebar.write("I got an A on my Physics midterm. Physics is a hard class, and it's nice when I get an A.")
 
-number_of_olives_consumed = st.sidebar.number_input("Have you endured a very distasteful event in the last three months?", min_value=0, max_value=100, step=1)
+number_of_olives_consumed = st.sidebar.number_input("How many distasteful events have you endured in the last three months?", min_value=0, max_value=100, step=1)
 if number_of_olives_consumed >= 1:
     st.sidebar.write("For me, it’s eating olives. Olives taste like rubber. Seeing them every day at my pizza job adds to my resentment.")
 
