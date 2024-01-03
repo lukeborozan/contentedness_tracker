@@ -1,7 +1,7 @@
 import streamlit as st
 
 #Let x be the measure of the contentedness of a human's existence.
-st.sidebar.write("The following is a python program that calculates a person’s contentedness based on their responses to the inventory below. The measured emotions are from Paul Ekman’s research on the fundamental emotions – in essence the primary colors of our feelings.")
+st.sidebar.write("The following is a Python program that calculates a person’s contentedness based on their responses to the inventory below. The measured emotions are from Paul Ekman’s research on the fundamental emotions – in essence the primary colors of our feelings.")
 st.sidebar.write("Let x be the measure of the contentedness of a human's existence.")
 st.sidebar.write("The following values are completely based on personal subjective experience, and the questions are specific to my life (for now)")
 st.sidebar.write("The emotions are on a scale of 100.")
